@@ -1,0 +1,202 @@
+[
+  {
+    "id": "bank-po",
+    "slug": "bank-po-interview",
+    "name": "Bank PO Interview",
+    "name_hindi": "बैंक पीओ साक्षात्कार",
+    "category": "banking",
+    "difficulty": "medium",
+    "avg_salary": "₹8-12 LPA",
+    "top_recruiters": ["SBI", "PNB", "BOB"],
+    "common_questions": [
+      "Why do you want to join banking?",
+      "What is repo rate?",
+      "Tell me about yourself"
+    ],
+    "tips": [
+      "Current affairs padho daily",
+      "Banking terms yaad karo"
+    ],
+    "dress_code": "Formal - White shirt, dark trouser"
+  },
+  {
+    "id": "ssc-cgl",
+    "slug": "ssc-cgl-interview",
+    "name": "SSC CGL Interview",
+    "name_hindi": "एसएससी सीजीएल साक्षात्कार",
+    "category": "government",
+    "difficulty": "medium",
+    "avg_salary": "₹4-8 LPA",
+    "top_recruiters": ["SSC"],
+    "common_questions": [
+      "Why SSC?",
+      "What is GST?",
+      "Tell me about yourself"
+    ],
+    "tips": [
+      "General knowledge strong karo",
+      "Aptitude practice karo"
+    ],
+    "dress_code": "Formal - Shirt and pant"
+  },
+  {
+    "id": "railway-ntpc",
+    "slug": "railway-ntpc-interview",
+    "name": "Railway NTPC Interview",
+    "name_hindi": "रेलवे एनटीपीसी साक्षात्कार",
+    "category": "government",
+    "difficulty": "easy",
+    "avg_salary": "₹3-6 LPA",
+    "top_recruiters": ["Indian Railways"],
+    "common_questions": [
+      "Why railways?",
+      "What is IRCTC?",
+      "Tell me about yourself"
+    ],
+    "tips": [
+      "Railway facts seekho",
+      "Basic math revise karo"
+    ],
+    "dress_code": "Formal - Shirt and pant"
+  },
+  {
+    "id": "upsc-interview",
+    "slug": "upsc-interview",
+    "name": "UPSC Interview",
+    "name_hindi": "यूपीएससी साक्षात्कार",
+    "category": "government",
+    "difficulty": "hard",
+    "avg_salary": "₹9-15 LPA",
+    "top_recruiters": ["UPSC"],
+    "common_questions": [
+      "Why civil services?",
+      "Current affairs discuss karo",
+      "Tell me about yourself"
+    ],
+    "tips": [
+      "Diverse knowledge rakho",
+      "Debate skills develop karo"
+    ],
+    "dress_code": "Formal - Suit"
+  },
+  {
+    "id": "army-defence",
+    "slug": "army-defence-interview",
+    "name": "Army/Defence Interview",
+    "name_hindi": "आर्मी/डिफेंस साक्षात्कार",
+    "category": "defence",
+    "difficulty": "medium",
+    "avg_salary": "₹6-12 LPA",
+    "top_recruiters": ["Indian Army", "Navy", "Air Force"],
+    "common_questions": [
+      "Why defence?",
+      "Physical fitness kaise maintain karte ho?",
+      "Tell me about yourself"
+    ],
+    "tips": [
+      "Discipline show karo",
+      "National pride dikhao"
+    ],
+    "dress_code": "Uniform or formal"
+  },
+  {
+    "id": "it-company",
+    "slug": "it-company-interview",
+    "name": "IT Company Interview",
+    "name_hindi": "आईटी कंपनी साक्षात्कार",
+    "category": "it",
+    "difficulty": "medium",
+    "avg_salary": "₹6-20 LPA",
+    "top_recruiters": ["TCS", "Infosys", "Wipro"],
+    "common_questions": [
+      "Why IT?",
+      "Tell me about your projects",
+      "Tell me about yourself"
+    ],
+    "tips": [
+      "Coding skills improve karo",
+      "Soft skills develop karo"
+    ],
+    "dress_code": "Casual formal"
+  },
+  {
+    "id": "state-psc",
+    "slug": "state-psc-interview",
+    "name": "State PSC Interview",
+    "name_hindi": "राज्य पीएससी साक्षात्कार",
+    "category": "government",
+    "difficulty": "medium",
+    "avg_salary": "₹5-10 LPA",
+    "top_recruiters": ["State Governments"],
+    "common_questions": [
+      "Why state services?",
+      "Local issues ka knowledge rakho",
+      "Tell me about yourself"
+    ],
+    "tips": [
+      "State-specific GK padho",
+      "Administrative skills dikhao"
+    ],
+    "dress_code": "Formal - Kurta or suit"
+  },
+  {
+    "id": "teaching-tet",
+    "slug": "teaching-tet-interview",
+    "name": "Teaching (TET/CTET)",
+    "name_hindi": "टीचिंग (टीईटी/सीटीईटी)",
+    "category": "education",
+    "difficulty": "easy",
+    "avg_salary": "₹3-7 LPA",
+    "top_recruiters": ["Schools", "CBSE"],
+    "common_questions": [
+      "Why teaching?",
+      "How to handle students?",
+      "Tell me about yourself"
+    ],
+    "tips": [
+      "Teaching methods sikho",
+      "Patience show karo"
+    ],
+    "dress_code": "Professional - Saree or pant suit"
+  },
+  {
+    "id": "police-constable",
+    "slug": "police-constable-interview",
+    "name": "Police Constable Interview",
+    "name_hindi": "पुलिस कॉन्स्टेबल साक्षात्कार",
+    "category": "police",
+    "difficulty": "easy",
+    "avg_salary": "₹3-5 LPA",
+    "top_recruiters": ["State Police"],
+    "common_questions": [
+      "Why police?",
+      "Law and order ka knowledge?",
+      "Tell me about yourself"
+    ],
+    "tips": [
+      "Discipline aur honesty dikhao",
+      "Physical fitness maintain karo"
+    ],
+    "dress_code": "Uniform or formal"
+  },
+  {
+    "id": "mba-campus",
+    "slug": "mba-campus-interview",
+    "name": "MBA/Campus Interview",
+    "name_hindi": "एमबीए/कैंपस साक्षात्कार",
+    "category": "corporate",
+    "difficulty": "medium",
+    "avg_salary": "₹8-25 LPA",
+    "top_recruiters": ["Top MBA Colleges", "Companies"],
+    "common_questions": [
+      "Why MBA?",
+      "Leadership examples do",
+      "Tell me about yourself"
+    ],
+    "tips": [
+      "Case studies practice karo",
+      "Group discussion skills improve karo"
+    ],
+    "dress_code": "Formal - Suit"
+  }
+]

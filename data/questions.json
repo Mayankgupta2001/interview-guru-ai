@@ -1,0 +1,452 @@
+[
+  {
+    "id": "q1",
+    "question": "Tell me about yourself",
+    "question_hindi": "अपने बारे में बताइए",
+    "category": "common",
+    "difficulty": "easy",
+    "tips": "PAST-PRESENT-FUTURE formula use karo",
+    "sample_answer": "I am from Delhi, completed B.Tech in CSE from IIT Delhi. Currently working as software engineer at Infosys. Future mein leadership role chahata hoon."
+  },
+  {
+    "id": "q2",
+    "question": "Why do you want to join this company?",
+    "question_hindi": "आप इस कंपनी में क्यों जुड़ना चाहते हैं?",
+    "category": "common",
+    "difficulty": "easy",
+    "tips": "Company research karo aur genuine reasons do",
+    "sample_answer": "Your company has great work culture and innovation focus. I want to contribute to projects like AI development."
+  },
+  {
+    "id": "q3",
+    "question": "Why did you choose this field?",
+    "question_hindi": "आपने इस क्षेत्र को क्यों चुना?",
+    "category": "common",
+    "difficulty": "easy",
+    "tips": "Passion aur interest dikhao",
+    "sample_answer": "I am passionate about technology and problem-solving. This field allows me to make impact through coding."
+  },
+  {
+    "id": "q4",
+    "question": "What are your strengths?",
+    "question_hindi": "आपकी ताकतें क्या हैं?",
+    "category": "common",
+    "difficulty": "easy",
+    "tips": "2-3 strengths with examples do",
+    "sample_answer": "My strengths are problem-solving, teamwork, and quick learning. In college project, I led team to complete app on time."
+  },
+  {
+    "id": "q5",
+    "question": "What are your weaknesses?",
+    "question_hindi": "आपकी कमजोरियाँ क्या हैं?",
+    "category": "common",
+    "difficulty": "medium",
+    "tips": "Weakness ko strength mein convert karo",
+    "sample_answer": "I used to be shy in presentations, but now I practice regularly and have improved my communication skills."
+  },
+  {
+    "id": "q6",
+    "question": "Where do you see yourself in 5 years?",
+    "question_hindi": "5 साल में आप खुद को कहाँ देखते हैं?",
+    "category": "common",
+    "difficulty": "medium",
+    "tips": "Career growth aur learning focus karo",
+    "sample_answer": "In 5 years, I see myself as senior developer leading projects and mentoring juniors."
+  },
+  {
+    "id": "q7",
+    "question": "Why should we hire you?",
+    "question_hindi": "हम आपको क्यों hire करें?",
+    "category": "common",
+    "difficulty": "medium",
+    "tips": "Unique selling points highlight karo",
+    "sample_answer": "I have relevant skills, passion for work, and can contribute immediately to your team goals."
+  },
+  {
+    "id": "q8",
+    "question": "Tell me about a challenging situation you faced",
+    "question_hindi": "एक challenging situation के बारे में बताइए जिसका आपने सामना किया",
+    "category": "behavioral",
+    "difficulty": "medium",
+    "tips": "STAR method use karo: Situation, Task, Action, Result",
+    "sample_answer": "In project, deadline was tight. I organized team, delegated tasks, worked extra hours. We delivered on time."
+  },
+  {
+    "id": "q9",
+    "question": "Describe a time when you worked in a team",
+    "question_hindi": "एक समय बताइए जब आपने team में काम किया",
+    "category": "behavioral",
+    "difficulty": "easy",
+    "tips": "Teamwork aur contribution highlight karo",
+    "sample_answer": "In hackathon, I collaborated with 4 members. I handled backend, others frontend. We won second prize."
+  },
+  {
+    "id": "q10",
+    "question": "How do you handle pressure?",
+    "question_hindi": "दबाव कैसे handle करते हैं?",
+    "category": "behavioral",
+    "difficulty": "medium",
+    "tips": "Positive coping strategies batao",
+    "sample_answer": "I prioritize tasks, take breaks, and focus on solutions. In exam pressure, I studied systematically and scored well."
+  },
+  {
+    "id": "q11",
+    "question": "What is your salary expectation?",
+    "question_hindi": "आपकी salary expectation क्या है?",
+    "category": "common",
+    "difficulty": "easy",
+    "tips": "Research karo aur range do",
+    "sample_answer": "Based on my experience and role, I expect 6-8 LPA. Open to discussion."
+  },
+  {
+    "id": "q12",
+    "question": "Why do you want to leave your current job?",
+    "question_hindi": "अपनी current job क्यों छोड़ना चाहते हैं?",
+    "category": "common",
+    "difficulty": "medium",
+    "tips": "Positive reasons do, negativity avoid karo",
+    "sample_answer": "I want growth opportunities and new challenges. Your company offers that."
+  },
+  {
+    "id": "q13",
+    "question": "What motivates you?",
+    "question_hindi": "आपको क्या motivate करता है?",
+    "category": "common",
+    "difficulty": "easy",
+    "tips": "Work-related motivation batao",
+    "sample_answer": "Solving problems and seeing impact of my work motivates me. Learning new technologies also excites me."
+  },
+  {
+    "id": "q14",
+    "question": "How do you learn new skills?",
+    "question_hindi": "नई skills कैसे सीखते हैं?",
+    "category": "common",
+    "difficulty": "easy",
+    "tips": "Learning methods describe karo",
+    "sample_answer": "I use online courses, practice projects, and discuss with colleagues. Recently learned React through Udemy."
+  },
+  {
+    "id": "q15",
+    "question": "Tell me about your hobbies",
+    "question_hindi": "आपके hobbies क्या हैं?",
+    "category": "common",
+    "difficulty": "easy",
+    "tips": "Relevant hobbies choose karo",
+    "sample_answer": "I enjoy reading tech blogs, playing cricket, and coding personal projects."
+  },
+  {
+    "id": "q16",
+    "question": "What is your biggest achievement?",
+    "question_hindi": "आपकी सबसे बड़ी achievement क्या है?",
+    "category": "common",
+    "difficulty": "medium",
+    "tips": "Quantifiable achievement batao",
+    "sample_answer": "Leading college fest with 500+ attendees. Managed budget and coordinated 20 volunteers."
+  },
+  {
+    "id": "q17",
+    "question": "How do you handle criticism?",
+    "question_hindi": "Criticism कैसे handle करते हैं?",
+    "category": "behavioral",
+    "difficulty": "medium",
+    "tips": "Constructive approach dikhao",
+    "sample_answer": "I listen carefully, understand feedback, and work on improvement. In code review, I incorporated suggestions."
+  },
+  {
+    "id": "q18",
+    "question": "Describe your leadership style",
+    "question_hindi": "आपका leadership style कैसा है?",
+    "category": "leadership",
+    "difficulty": "medium",
+    "tips": "Collaborative style batao",
+    "sample_answer": "I believe in collaborative leadership. I guide team, encourage ideas, and support growth."
+  },
+  {
+    "id": "q19",
+    "question": "What is your favorite programming language?",
+    "question_hindi": "आपका favorite programming language कौन सा है?",
+    "category": "technical",
+    "difficulty": "easy",
+    "tips": "Reason with examples do",
+    "sample_answer": "Python, because it's versatile for web, data, and automation. Used it for ML projects."
+  },
+  {
+    "id": "q20",
+    "question": "Explain a technical concept",
+    "question_hindi": "एक technical concept explain कीजिए",
+    "category": "technical",
+    "difficulty": "medium",
+    "tips": "Simple language use karo",
+    "sample_answer": "OOP is object-oriented programming. It organizes code into objects with properties and methods."
+  },
+  {
+    "id": "q21",
+    "question": "Why banking?",
+    "question_hindi": "बैंकिंग क्यों?",
+    "category": "banking",
+    "difficulty": "easy",
+    "tips": "Stability aur growth batao",
+    "sample_answer": "Banking offers job security, good salary, and opportunity to serve public."
+  },
+  {
+    "id": "q22",
+    "question": "What is repo rate?",
+    "question_hindi": "रेपो रेट क्या है?",
+    "category": "banking",
+    "difficulty": "medium",
+    "tips": "Definition with example do",
+    "sample_answer": "Repo rate is interest RBI charges banks for borrowing. It affects loan rates."
+  },
+  {
+    "id": "q23",
+    "question": "Why SSC?",
+    "question_hindi": "एसएससी क्यों?",
+    "category": "government",
+    "difficulty": "easy",
+    "tips": "Government job benefits batao",
+    "sample_answer": "SSC offers stable career, pension, and work-life balance."
+  },
+  {
+    "id": "q24",
+    "question": "What is GST?",
+    "question_hindi": "जीएसटी क्या है?",
+    "category": "government",
+    "difficulty": "medium",
+    "tips": "Explain simply",
+    "sample_answer": "GST is Goods and Services Tax, unified tax system replacing multiple taxes."
+  },
+  {
+    "id": "q25",
+    "question": "Why railways?",
+    "question_hindi": "रेलवे क्यों?",
+    "category": "government",
+    "difficulty": "easy",
+    "tips": "Service to nation batao",
+    "sample_answer": "Railways connects India, offers adventure and serving millions daily."
+  },
+  {
+    "id": "q26",
+    "question": "What is IRCTC?",
+    "question_hindi": "आईआरसीटीसी क्या है?",
+    "category": "government",
+    "difficulty": "easy",
+    "tips": "Full form batao",
+    "sample_answer": "IRCTC is Indian Railway Catering and Tourism Corporation, handles bookings."
+  },
+  {
+    "id": "q27",
+    "question": "Why civil services?",
+    "question_hindi": "सिविल सर्विसेज क्यों?",
+    "category": "government",
+    "difficulty": "medium",
+    "tips": "Public service passion dikhao",
+    "sample_answer": "To contribute to nation's development and policy making."
+  },
+  {
+    "id": "q28",
+    "question": "Current affairs question",
+    "question_hindi": "करेंट अफेयर्स सवाल",
+    "category": "government",
+    "difficulty": "hard",
+    "tips": "Daily news padho",
+    "sample_answer": "Recently, India launched Chandrayaan-3 mission to moon."
+  },
+  {
+    "id": "q29",
+    "question": "Why defence?",
+    "question_hindi": "डिफेंस क्यों?",
+    "category": "defence",
+    "difficulty": "easy",
+    "tips": "Patriotism aur discipline batao",
+    "sample_answer": "To serve nation, protect borders, and maintain peace."
+  },
+  {
+    "id": "q30",
+    "question": "How do you maintain physical fitness?",
+    "question_hindi": "फिजिकल फिटनेस कैसे maintain करते हैं?",
+    "category": "defence",
+    "difficulty": "easy",
+    "tips": "Routine describe karo",
+    "sample_answer": "Daily exercise, running, and healthy diet."
+  },
+  {
+    "id": "q31",
+    "question": "Why IT?",
+    "question_hindi": "आईटी क्यों?",
+    "category": "it",
+    "difficulty": "easy",
+    "tips": "Innovation aur growth batao",
+    "sample_answer": "IT offers dynamic work, learning opportunities, and good pay."
+  },
+  {
+    "id": "q32",
+    "question": "Tell me about your projects",
+    "question_hindi": "अपने projects के बारे में बताइए",
+    "category": "it",
+    "difficulty": "medium",
+    "tips": "Key projects with impact batao",
+    "sample_answer": "Built e-commerce site with React and Node.js, handled 1000+ users."
+  },
+  {
+    "id": "q33",
+    "question": "Why state services?",
+    "question_hindi": "स्टेट सर्विसेज क्यों?",
+    "category": "government",
+    "difficulty": "easy",
+    "tips": "Local development focus karo",
+    "sample_answer": "To work for state development and local governance."
+  },
+  {
+    "id": "q34",
+    "question": "Local issues knowledge",
+    "question_hindi": "लोकल इश्यूज का knowledge",
+    "category": "government",
+    "difficulty": "medium",
+    "tips": "State news padho",
+    "sample_answer": "In UP, focus on farmer issues and infrastructure development."
+  },
+  {
+    "id": "q35",
+    "question": "Why teaching?",
+    "question_hindi": "टीचिंग क्यों?",
+    "category": "education",
+    "difficulty": "easy",
+    "tips": "Passion for education batao",
+    "sample_answer": "To shape young minds and contribute to education system."
+  },
+  {
+    "id": "q36",
+    "question": "How to handle difficult students?",
+    "question_hindi": "डिफिकल्ट students कैसे handle करें?",
+    "category": "education",
+    "difficulty": "medium",
+    "tips": "Patience aur understanding dikhao",
+    "sample_answer": "Listen to them, understand issues, and guide positively."
+  },
+  {
+    "id": "q37",
+    "question": "Why police?",
+    "question_hindi": "पुलिस क्यों?",
+    "category": "police",
+    "difficulty": "easy",
+    "tips": "Law and order commitment batao",
+    "sample_answer": "To maintain law and order, protect citizens."
+  },
+  {
+    "id": "q38",
+    "question": "Law and order knowledge",
+    "question_hindi": "लॉ एंड ऑर्डर का knowledge",
+    "category": "police",
+    "difficulty": "medium",
+    "tips": "Basic laws sikho",
+    "sample_answer": "IPC sections, traffic rules, and crime prevention."
+  },
+  {
+    "id": "q39",
+    "question": "Why MBA?",
+    "question_hindi": "एमबीए क्यों?",
+    "category": "corporate",
+    "difficulty": "easy",
+    "tips": "Career growth batao",
+    "sample_answer": "For business knowledge, leadership skills, and better opportunities."
+  },
+  {
+    "id": "q40",
+    "question": "Leadership example",
+    "question_hindi": "लीडरशिप का example",
+    "category": "corporate",
+    "difficulty": "medium",
+    "tips": "STAR method use karo",
+    "sample_answer": "In team project, motivated members, resolved conflicts, achieved goals."
+  },
+  {
+    "id": "q41",
+    "question": "What is SWOT analysis?",
+    "question_hindi": "एसडब्ल्यूओटी एनालिसिस क्या है?",
+    "category": "corporate",
+    "difficulty": "medium",
+    "tips": "Explain with example",
+    "sample_answer": "SWOT is Strengths, Weaknesses, Opportunities, Threats analysis for business strategy."
+  },
+  {
+    "id": "q42",
+    "question": "Tell me about a time you failed",
+    "question_hindi": "एक समय बताइए जब आप fail हुए",
+    "category": "behavioral",
+    "difficulty": "medium",
+    "tips": "Learning from failure batao",
+    "sample_answer": "In exam, failed due to poor preparation. Learned time management, now better."
+  },
+  {
+    "id": "q43",
+    "question": "How do you prioritize tasks?",
+    "question_hindi": "टास्क्स कैसे prioritize करते हैं?",
+    "category": "common",
+    "difficulty": "easy",
+    "tips": "Methods describe karo",
+    "sample_answer": "Use Eisenhower matrix: urgent/important basis."
+  },
+  {
+    "id": "q44",
+    "question": "What is your work style?",
+    "question_hindi": "आपका work style कैसा है?",
+    "category": "common",
+    "difficulty": "easy",
+    "tips": "Collaborative style batao",
+    "sample_answer": "I am collaborative, prefer team work, and communicate openly."
+  },
+  {
+    "id": "q45",
+    "question": "How do you stay updated?",
+    "question_hindi": "कैसे updated रहते हैं?",
+    "category": "common",
+    "difficulty": "easy",
+    "tips": "Sources batao",
+    "sample_answer": "Read news, follow tech blogs, attend webinars."
+  },
+  {
+    "id": "q46",
+    "question": "Tell me about a time you innovated",
+    "question_hindi": "एक समय बताइए जब आपने innovate किया",
+    "category": "behavioral",
+    "difficulty": "medium",
+    "tips": "Creativity example do",
+    "sample_answer": "Automated manual process using script, saved 5 hours daily."
+  },
+  {
+    "id": "q47",
+    "question": "How do you handle conflicts?",
+    "question_hindi": "कॉन्फ्लिक्ट्स कैसे handle करते हैं?",
+    "category": "behavioral",
+    "difficulty": "medium",
+    "tips": "Resolution approach batao",
+    "sample_answer": "Listen to both sides, find common ground, compromise."
+  },
+  {
+    "id": "q48",
+    "question": "What is your biggest mistake?",
+    "question_hindi": "आपकी सबसे बड़ी mistake क्या थी?",
+    "category": "behavioral",
+    "difficulty": "hard",
+    "tips": "Honest but positive batao",
+    "sample_answer": "Missed deadline due to overcommitment. Now plan better."
+  },
+  {
+    "id": "q49",
+    "question": "How do you give feedback?",
+    "question_hindi": "फीडबैक कैसे देते हैं?",
+    "category": "leadership",
+    "difficulty": "medium",
+    "tips": "Constructive method batao",
+    "sample_answer": "Be specific, positive first, then suggestions."
+  },
+  {
+    "id": "q50",
+    "question": "What are your career goals?",
+    "question_hindi": "आपके career goals क्या हैं?",
+    "category": "common",
+    "difficulty": "easy",
+    "tips": "Short and long term batao",
+    "sample_answer": "Short term: master current role. Long term: managerial position."
+  }
+]

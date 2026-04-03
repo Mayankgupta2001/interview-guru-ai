@@ -1,65 +1,102 @@
-import Image from "next/image";
+import Navbar from '@/components/Navbar';
+import TrustBanner from '@/components/TrustBanner';
+import CategoryGrid from '@/components/CategoryGrid';
+import Link from 'next/link';
+import interviews from '@/data/interviews.json';
+import questions from '@/data/questions.json';
 
 export default function Home() {
+  const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <div className="min-h-screen bg-white">
+      <Navbar />
+
+      {/* Hero Section */}
+      <section className="bg-gradient-to-r from-blue-50 to-white py-16 px-4">
+        <div className="container mx-auto text-center">
+          <div className="inline-block bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium mb-4">
+            🇮🇳 India's #1 AI Interview Coach
+          </div>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4" style={{ color: '#0d47a1' }}>
+            Interview Crack Karo!
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+            AI-powered mock interviews aur expert guidance - Government aur Private dono ke liye. Bilkul Free!
           </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+            <Link href="/mock-interview" className="bg-blue-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-800 transition">
+              Mock Interview Shuru Karo 🎯
+            </Link>
+            <Link href="/questions" className="border-2 border-blue-900 text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
+              Questions Practice Karo 📚
+            </Link>
+          </div>
+          <div className="text-sm text-gray-500">
+            10+ Categories | 50+ Questions | AI-Powered | Free
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      <TrustBanner />
+
+      {/* CategoryGrid Section */}
+      <section className="py-16 px-4">
+        <div className="container mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-8" style={{ color: '#0d47a1' }}>
+            Apni Category Chuniye 🎯
+          </h2>
+          <CategoryGrid interviews={interviews} />
         </div>
-      </main>
+      </section>
+
+      {/* Aaj Ka Question Section */}
+      <section className="bg-gray-50 py-16 px-4">
+        <div className="container mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-8" style={{ color: '#0d47a1' }}>
+            Aaj Ka Question
+          </h2>
+          <div className="max-w-2xl mx-auto bg-white p-6 rounded-lg shadow">
+            <p className="text-lg font-semibold mb-2">{randomQuestion.question}</p>
+            <p className="text-gray-600 mb-4">{randomQuestion.question_hindi}</p>
+            <p className="text-sm text-gray-500 mb-4"><strong>Tips:</strong> {randomQuestion.tips}</p>
+            <Link href="/questions" className="bg-yellow-500 text-white px-6 py-2 rounded-lg font-semibold hover:bg-yellow-600 transition">
+              AI Se Answer Sikhho →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works */}
+      <section className="py-16 px-4">
+        <div className="container mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-8" style={{ color: '#0d47a1' }}>
+            How It Works
+          </h2>
+          <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
+            <div className="flex flex-col items-center">
+              <div className="text-4xl mb-4">🎯</div>
+              <h3 className="text-xl font-semibold mb-2">1. Category chuniye</h3>
+              <p className="text-gray-600">Apni job category select karo</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <div className="text-4xl mb-4">🎤</div>
+              <h3 className="text-xl font-semibold mb-2">2. Mock interview do</h3>
+              <p className="text-gray-600">AI ke saath practice karo</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <div className="text-4xl mb-4">📈</div>
+              <h3 className="text-xl font-semibold mb-2">3. AI feedback lo aur improve karo</h3>
+              <p className="text-gray-600">Tips se better bano</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-gray-800 text-white py-8 px-4 text-center">
+        <p>InterviewGuru AI 🇮🇳 | Free | Made for Indian Job Seekers | No Data Stored</p>
+      </footer>
     </div>
   );
 }
