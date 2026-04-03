@@ -50,6 +50,36 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Special Tools Section */}
+      <section className="bg-gradient-to-r from-blue-50 to-white py-16 px-4">
+        <div className="container mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-8" style={{ color: '#0d47a1' }}>
+            🌟 Special Tools
+          </h2>
+          <div className="max-w-xl mx-auto bg-gradient-to-r from-blue-500 to-purple-600 text-white p-6 rounded-2xl shadow-lg">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+              <div>
+                <p className="text-5xl">📝</p>
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold">Answer Evaluator</h3>
+                <p className="mt-2 text-sm sm:text-base text-white/90">
+                  Apna answer likho, AI 1-10 score dega aur better answer batayega
+                </p>
+              </div>
+              <div>
+                <a
+                  href="/evaluate"
+                  className="inline-block bg-white text-blue-700 font-semibold px-5 py-3 rounded-lg hover:bg-gray-100 transition"
+                >
+                  Try Karo →
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Aaj Ka Question Section */}
       <section className="bg-gray-50 py-16 px-4">
         <div className="container mx-auto text-center">
