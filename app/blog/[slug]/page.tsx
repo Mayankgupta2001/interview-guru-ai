@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { blogPosts, getPostBySlug, getAllSlugs } from '../_posts'
+import AuthorBio from '@/components/AuthorBio'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -223,6 +224,7 @@ export default async function BlogPostPage({ params }: Props) {
       {/* Content */}
       <div className="bg-white border border-gray-100 rounded-2xl p-5 mb-4 shadow-sm">
         {renderContent(post.content)}
+        <AuthorBio showAvatar={true} />
       </div>
 
       {/* CTA */}

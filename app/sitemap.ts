@@ -1,10 +1,12 @@
 import { MetadataRoute } from 'next'
 import { getAllSlugs } from './blog/_posts'
+import interviews from '@/data/interviews.json'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://interview-guru-ai.vercel.app'
   const now = new Date()
 
+  // Blog URLs
   const blogUrls: MetadataRoute.Sitemap = getAllSlugs().map((slug) => ({
     url: `${baseUrl}/blog/${slug}`,
     lastModified: now,
@@ -12,7 +14,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
+  // Interview category URLs
+  const interviewUrls: MetadataRoute.Sitemap = interviews.map((interview) => ({
+    url: `${baseUrl}/interview/${interview.slug}`,
+    lastModified: now,
+    changeFrequency: 'weekly' as const,
+    priority: 0.75,
+  }))
+
   return [
+    // Main pages
     {
       url: baseUrl,
       lastModified: now,
@@ -55,6 +66,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.3,
     },
+    // All blog posts and interview categories
     ...blogUrls,
+    ...interviewUrls,
   ]
 }
